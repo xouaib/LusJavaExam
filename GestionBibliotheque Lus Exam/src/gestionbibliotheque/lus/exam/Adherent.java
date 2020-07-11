@@ -4,22 +4,19 @@
  * and open the template in the editor.
  */
 package gestionbibliotheque.lus.exam;
-
-import java.io.Serializable;
-
 /**
  *
  * @author ~Bouchaib
  */
-public class Adherent implements Serializable {
+public class Adherent {
 
     /*Properties*/
     private String prenom;
     private String nom;
 
     public Adherent() {
-        this.prenom = "Inconnu";
-        this.nom = "Inconnu";
+        this.prenom = "";
+        this.nom = "";
     }
 
     public Adherent(String prn, String nm) {
@@ -49,7 +46,7 @@ public class Adherent implements Serializable {
     }
 
     public void emprunter(Livre l) {
-        l.empruntable();
+        l.emprunter();
     }
     
     public void rendre(Livre l) {

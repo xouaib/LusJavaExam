@@ -24,7 +24,7 @@ public class Livre extends Volume {
         return "livre => " + super.toString();
     }
 
-    public void empruntable() {
+    public void emprunter() {
         System.out.println(this);
     }
 

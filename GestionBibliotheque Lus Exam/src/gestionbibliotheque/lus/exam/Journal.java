@@ -26,6 +26,6 @@ public class Journal extends Document {
 
     @Override
     public String toString() {
-        return "date : " + this.periodicite + " , " + super.toString();
+        return "periode : " + this.periodicite + " , " + super.toString();
     }
 }

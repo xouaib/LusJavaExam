@@ -5,20 +5,18 @@
  */
 package gestionbibliotheque.lus.exam;
 
-import java.io.Serializable;
-
 /**
  *
  * @author ~Bouchaib
  */
-public class Document implements Serializable {
+public class Document {
 
     /*Properties*/
-    private int numero;
-    private String titre;
+    protected int numero;
+    protected String titre;
 
     public Document() {
-        this.titre = "Inconnu";
+        this.titre = "";
     }
 
     public Document(int nmr, String ttr) {
